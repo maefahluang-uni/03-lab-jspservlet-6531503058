@@ -55,7 +55,7 @@ public class BMICalculatorServlet extends HttpServlet{
         request.setAttribute("bmiStg",bmiStg );
         request.setAttribute("bmi", bmi);
         //TODO: forward to jsp
-        request.getRequestDispatcher("/bmi_result.jsp").forward(request, response);;
+        request.getRequestDispatcher("/bmi_result.jsp").forward(request, response);//
 
            
     }

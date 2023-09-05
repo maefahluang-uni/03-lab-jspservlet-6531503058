@@ -10,4 +10,4 @@
 <!--TODO: show built type below -->
 <h3>According to your BMI, you are considered <%= request.getAttribute("bmiStg") %></h3>
 </body>
-</html>
+</html>//
